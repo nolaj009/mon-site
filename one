@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BuzzShop Viral</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta name="description" content="Découvrez les produits TikTok les plus viraux ! BuzzShop Viral vous propose les gadgets les plus fous à acheter immédiatement.">
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <!-- Header -->
+  <header class="bg-white shadow-md p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">🔥 BuzzShop Viral</h1>
+    <nav>
+      <a href="#produits" class="mx-4 hover:text-blue-600">Produits</a>
+      <a href="#videos" class="hover:text-blue-600">Vidéos</a>
+      <a href="#newsletter" class="mx-4 hover:text-blue-600">Newsletter</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-10 bg-gradient-to-r from-yellow-300 to-red-400">
+    <h2 class="text-4xl font-bold mb-4">Les produits les plus viraux du moment !</h2>
+    <p class="text-lg">Découvre, rigole et achète les gadgets TikTok les plus fous 🤯</p>
+    <a href="#produits" class="inline-block mt-6 bg-white text-black px-6 py-2 rounded-full font-bold hover:bg-gray-200">Voir les produits</a>
+  </section>
+
+  <!-- Produits Viraux -->
+  <section id="produits" class="p-6">
+    <h3 class="text-2xl font-bold mb-4">🛍️ Produits en Tendance</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://via.placeholder.com/300x200" alt="Produit 1" class="mb-2">
+        <h4 class="font-semibold">Mini ventilo portable</h4>
+        <p>Utile, stylé et buzz sur TikTok 🌬️</p>
+        <a href="https://s.click.aliexpress.com/e/_DFHg6HX" class="text-blue-600 underline">Acheter maintenant</a>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://via.placeholder.com/300x200" alt="Produit 2" class="mb-2">
+        <h4 class="font-semibold">Bouteille LED magique</h4>
+        <p>Brille la nuit, fait le buzz 💡</p>
+        <a href="https://s.click.aliexpress.com/e/_DFrCkvd" class="text-blue-600 underline">Acheter maintenant</a>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://via.placeholder.com/300x200" alt="Produit 3" class="mb-2">
+        <h4 class="font-semibold">Stylo invisible</h4>
+        <p>Secret + fun = succès garanti ✍️</p>
+        <a href="https://s.click.aliexpress.com/e/_DlT0jPd" class="text-blue-600 underline">Acheter maintenant</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vidéos TikTok -->
+  <section id="videos" class="p-6 bg-white">
+    <h3 class="text-2xl font-bold mb-4">🎥 Vidéos TikTok Virales</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <iframe class="w-full h-64" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+      <iframe class="w-full h-64" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section id="newsletter" class="p-6 bg-gray-200 text-center">
+    <h3 class="text-2xl font-bold mb-2">📬 Reste à jour avec les dernières tendances !</h3>
+    <p class="mb-4">Inscris-toi à notre newsletter et reçois les meilleurs produits viraux chaque semaine.</p>
+    <form class="flex flex-col md:flex-row justify-center items-center gap-2">
+      <input type="email" placeholder="Ton email" class="p-2 rounded w-64" required>
+      <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">S’inscrire</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-4 mt-6 bg-gray-800 text-white">
+    <p>&copy; 2025 BuzzShop Viral - Tous droits réservés | <a href="#" class="underline">Politique de confidentialité</a></p>
+  </footer>
+</body>
+</html>
